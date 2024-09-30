@@ -23,7 +23,7 @@ function App() {
       <h1 className='font-bold'>{counter}</h1>
       <h1 className="text-2xl font-bold">Counter</h1>
       <div className="flex space-x-4"> {/* Flex container for buttons */}
-        <button onClick={()=> operate("add")} type="button" className="bg-blue-500 text-white px-4 py-2 rounded" >Add</button>
+        <button onClick={()=> operate("add")} type="button" className="bg-blue-400 text-white px-4 py-2 rounded" >Add</button>
         <button onClick={()=> operate("sub")} type="button" className="bg-red-500 text-white px-4 py-2 rounded">Sub</button>
       </div>
 
